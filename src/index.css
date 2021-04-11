@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pdl10 {
+  padding-left: 1rem!important;
+}
+.todo {
+  padding: 10px 20px 5px 20px;
+}
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  background: #f3f3f3;
+}
+/* 
+.todo label span {
+  flex: 1
+
+} */
+.todo label i {
+  cursor: pointer;
+  z-index: 2;
+}
+.todo.completed span {
+  text-decoration: line-through;
+}
+.mgl20 {
+  margin-left: 20px;
+}
+.buttons {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
